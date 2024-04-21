@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head> 
+<body>
+
+
+    <header>
+        <h1>Deman Abdulqadir</h1>
+        <h5>Frontend Developer</h5>
+    </header>
+
+    <div class="container">
+
+        <section id="about">
+            <h2> About Me</h2>
+            <p>I'm a passionate frontend developer with experience in HTML, CSS, and JavaScript. I love creating responsive and user-friendly web applications.</p>
+        </section>
+
+        <section id="education"><br>
+            <h2>Education</h2>
+            <ul>
+                <li>Diploma in Information Technology from Ainda Institute in 2024</li>
+            </ul>
+        </section>
+
+        <section id="experience"></br>
+            <h2>Work Experience</h2>
+            <ul>
+                <li>Two Years Lecturer</li>
+                <li>Database Management Port</li>
+                <li>Personal Blog Website</li>
+            </ul>
+        </section>
+
+        <section id="skills"><br>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Web Design</li>
+                <li>Microsoft Word</li>
+                <li>Microsoft Excel</li>
+                <li>Microsoft PowerPoint</li>
+            </ul>
+        </section></br>
+
+        <section id="contact">
+            <h2>Contact</h2><br>
+            <ul>
+                <li>Contact Information</li>
+                <li><i class="fa-solid fa-envelope"></i>   Email: dimanabd55@gmail.com </li>
+                   
+                <li><i class="fa-solid fa-phone"></i>  Phone: 07517363267  </li>
+                   
+                
+                <li><i class="fa-solid fa-location-dot"></i>   Address: Zanayan-Hawler </li>
+                <li><i class="fa-solid fa-globe"></i></i>  Website: www.deman.com </li>
+                <li><i class="fa-brands fa-linkedin"></i>  LinkedIn: Deman Abdulqadir </li>
+            </ul>
+        </section></br>
+
+        <section id="language">
+            <h2>Language</h2>
+            <ul>
+                <li>English</li>
+                <li>Basic</li>
+                
+            </ul>
+        </section>
+        
+    </div>
+    <div class="container">
+
+       
+        <button onclick="confirmPrint()">Print
+            <i class="fa-solid fa-print"></i></button>
+    </div>
+
+    <script src="inli.js"></script>
+
+    <script>
+        function confirmPrint() {
+            var result = confirm("دەتەوێت سیڤیەکە کۆپی بکەی؟");
+            if (result) {
+                window.print();
+            } else {
+                alert("کۆپی کردنەکە ڕەتکرایەوە");
+            }
+        }
+    </script>
+
+
+
+    
+</body>
+</html>
