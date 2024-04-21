@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #11235A;
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 5px ;
+    text-underline-position: below;
+    box-shadow: 0px 5px 10px 0px royalblue;
+}
+
+
+@font-face {
+    font-family: myFont;
+    src: url(rozhbold.otf);
+}
+
+@font-face {
+    font-family: myFontt;
+    src: url(hadi.otf);
+}
+@font-face {
+    font-family: myFont1;
+    src: url(rozh.otf);
+}
+
+
+
+
+
+h1 {
+    font-size: 2.5rem;
+    color: #f8f2f2;
+    box-shadow: #007bff;
+    font-family: myFontt;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #1f1c1c;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px  10px  0px  green;
+    padding: 5px;
+
+    
+}
+
+p {
+    color: #1c114b;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+
+#contact li:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+#skills ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+h2:hover
+{
+color: #687db8;
+}
+
+
+
+
+button
+{
+    font-size: xx-large;
+    color: #1c3620;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 0px rgb(61, 112, 37);
+    
+     
+}
+button
+{
+    position: fixed;
+    left:90%;
+   bottom: 5%;
+   backdrop-filter: green;
+   border-radius: 20px;
+   border: none;
+   padding: 10px 20px;
+   background-color: #082b4b;
+   color: #fff;
+   box-shadow:0px 5px 20px 0px green;
+   cursor: pointer;
+
+}
